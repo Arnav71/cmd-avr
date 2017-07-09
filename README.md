@@ -4,13 +4,21 @@ The Plugin for AVR on CMD!!
 The cmd-avr is just what it sounds like The Plugin which edits the Makefile on cmd.
 # Works With Any Text Editor That Doesn't Have An AVR Plugin(Sorta)
 Text Editor Requirements
+
 1. Must Have A Console
+
 Thats All
+
 User Requirements
+
 1. Patience
+
 That's All Again
+
 System Requirements
+
 1. You need to install Golang
+
 Thats All Again(2)
 # Installation
 Installation is a little bit tricky but that's where the user requirements come.
@@ -38,13 +46,21 @@ avr
 # Custom Workspace
 1. Open the gofile before building it and add these changes
 See these lines
+
 op := "C:\\AVRSketchbook\\Makefile"
+
 oe := "C:\\AVRSketchbook\\"+ ar
+
 oa := "C:\\AVRSketchbook"
+
 Change it into the Avr Workspace you use like
+
 op := "C:\\AVRWork\\Makefile"
+
 oe := "C:\\AVRWork\\" + ar 
+
 oa := "C:\\AVRWork"
+
 Here AVRWork is just an example
 # Questions or Bugs
 Email me at planetoid128@gmail.com
