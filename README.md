@@ -31,7 +31,9 @@ First Of All ,you need a common Makefile, For Windows users Who are using WinAVR
 5. cd into that bin folder by typing cd C:\bin (if you created it in the C Drive)
 6. Now Build the go file using go build the\path\where\you\installed\the\go\file.go
 7. Setup the %PATH% Environment Variable by typing 
+
    set PATH=%PATH%;C:\bin
+
 And that's it 
 
 # Additional Notes For Notepad++ Users
