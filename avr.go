@@ -23,10 +23,15 @@ if len(va) == 0 || va != "Y" && va != "N"{
 log.Fatal("Not An Appropriate Answer")
 }
 if va == "Y"{
-fmt.Print("Project Name := ");
-os.Chdir("C:\\AVRSketchbook")
-var ar string;
+	fmt.Print("Project Name := ");
+	var ar string;
 fmt.Scan(&ar)
+op := "C:\\AVRSketchbook\\Makefile"
+oe := "C:\\AVRSketchbook\\"+ ar
+oa := "C:\\AVRSketchbook"
+
+os.Chdir(oa)
+
 if len(ar) == 0{
 log.Fatal("Not An Appropriate Answer")
 }
@@ -51,8 +56,7 @@ ao := "MCU = " + pa
 lo := "TARGET = " + pl
 lp := "AVRDUDE_PORT = " + pq
 pm := "F_CPU = " + qe + "000000"
-op := "C:\\AVRSketchbook\\Makefile"
-oe := "C:\\AVRSketchbook\\"+ ar
+
   input, errr := ioutil.ReadFile(op)
   inputs, errrr := ioutil.ReadFile(op)
   inputss, errrrr := ioutil.ReadFile(op)
