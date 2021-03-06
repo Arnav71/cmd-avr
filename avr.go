@@ -10,7 +10,7 @@ import(
 "io/ioutil"
 "log"
 )
-
+//Idk manh testing vim fugitive
 func main(){
 fmt.Print("New Project!!\n");
 fmt.Print("Start[Y/N] := ");
